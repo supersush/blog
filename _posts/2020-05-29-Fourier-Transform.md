@@ -22,6 +22,6 @@ tags:
 <img src="http://latex.codecogs.com/gif.latex?\int_0^Tf(t)\sin(n\omega t)dt=b_n\frac{T}{2}">
 b_n=\frac{2}{T}\int_0^Tf(t)\sin(n\omega t)dt
 解释：由于三角函数的正交性，不同频率的正余弦波相乘，对其周期积分后，结果为0
-同样可求出<img src="http://latex.codecogs.com/gif.latex?a_n">,进而求出<img src="http://latex.codecogs.com/gif.latex?\phi">
+同样可求出<img src="http://latex.codecogs.com/gif.latex?a_n">,进而求出<img src="http://latex.codecogs.com/gif.latex?$\phi$">
 <img src="http://latex.codecogs.com/gif.latex?c_n=\sqrt[2]{a_n^2+b_n^2}">
 <img src="http://latex.codecogs.com/gif.latex?\phi=arctan(-\frac{b_n}{a_n})">
