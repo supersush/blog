@@ -17,4 +17,4 @@ tags:
 <img src="http://chart.googleapis.com/chart?cht=tx&chl= f(t)=c_0+\sum_{n=1}^{\infty}c_n\cos(n\omega t+\phi)" style="border:none;">
 傅里叶级数
 
-<img src="http://chart.googleapis.com/chart?cht=tx&chl= f(t)=c_0+\sum_{n=1}^{\infty}\[c_n\cos\phi \cos(n\omega t)-c_n\sin\phi sin(n\omega t)\]" style="border:none;">
+<img src="http://chart.googleapis.com/chart?cht=tx&chl= f(t)=c_0+\sum_{n=1}^{\infty}[c_n\cos\phi \cos(n\omega t)-c_n\sin\phi sin(n\omega t)]" style="border:none;">
