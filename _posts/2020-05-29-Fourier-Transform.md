@@ -15,6 +15,6 @@ tags:
 
 #### “任何”周期信号都可以用一系列成谐波关系的正弦曲线来表示 ####
 <img src="http://chart.googleapis.com/chart?cht=tx&chl= f(t)=c_0+\sum_{n=1}^{\infty}c_n\cos(n\omega t + \phi)" style="border:none;">
-傅里叶级数
+<center>傅里叶级数</center>
 
 <img src="http://chart.googleapis.com/chart?cht=tx&chl= f(t)=c_0+\sum_{n=1}^{\infty}[c_n\cos\phi \cos(n\omega t)-c_n\sin\phi sin(n\omega t)]" style="border:none;">
