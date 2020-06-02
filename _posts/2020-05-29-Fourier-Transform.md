@@ -27,4 +27,4 @@ b_n=\frac{2}{T}\int_0^Tf(t)\sin(n\omega t)dt
 <img src="http://latex.codecogs.com/gif.latex?\phi=arctan(-\frac{b_n}{a_n})">
 
 #### "傅里叶级数用于对周期信号转换，傅里叶变换用于对非周期信号转换" ####
-<img src="http://latex.codecogs.com/gif.latex?F(f(t))=int_-infty^infty f(t)e^-i\omega t \delta t">
+<img src="http://latex.codecogs.com/gif.latex?F(f(t))=\int_-\infty^\infty f(t)e^{-i\omega t} dt">
