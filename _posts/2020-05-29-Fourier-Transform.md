@@ -41,11 +41,11 @@ b_n=\frac{2}{T}\int_0^Tf(t)\sin(n\omega t)dt
 ##### 拉普拉斯变换将频率从实数推广为复数，傅里叶变换是拉普拉斯变换的一个特例（当s为纯虚数时，f(t)的拉普拉斯变换等同于傅里叶变换）#####
 
 #### 离散信号傅里叶变换和Z变换 ####
-\sum_{-\infty}^{\infty}x[n]e^{-j\omega n}
+<img src="http://latex.codecogs.com/gif.latex?\sum_{-\infty}^{\infty}x[n]e^{-j\omega n}">
 <center>DTFT</center>
 
-\sum_{-\infty}^{\infty}x[n]z^{-n}
-z=(a*e^{jw})^{-n}
-<center></center>
+<img src="http://latex.codecogs.com/gif.latex?\sum_{-\infty}^{\infty}x[n]z^{-n}">
+<img src="http://latex.codecogs.com/gif.latex?z=(a*e^{jw})^{-n}">
+<center>Z变换</center>
 对应连续时间的傅里叶变换和拉普拉斯变换
 从图像的角度来说，Z变换得到的频谱，是一个复平面上的函数，而DTFT得到的频谱，则是沿着单位圆切一刀，得到的函数的剖面，从负实轴切断展开的图像。
