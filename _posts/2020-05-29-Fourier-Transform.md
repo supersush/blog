@@ -29,8 +29,8 @@ b_n=\frac{2}{T}\int_0^Tf(t)\sin(n\omega t)dt
 #### "傅里叶级数用于对周期信号转换，傅里叶变换用于对非周期信号转换" ####
 <img src="http://latex.codecogs.com/gif.latex?F(f(t))=\int_{-\infty}^{\infty} f(t)e^{-i\omega t} dt">
 根据欧拉公式：
-e^{i\theta}=\cos\theta+i\sin\theta
+<img src="http://latex.codecogs.com/gif.latex?e^{i\theta}=\cos\theta+i\sin\theta">
 带入可得：
-F(f(t))=\int_{-\infty}^{\infty}f(t)[\cos(\omega t)-i\sin(\omega t)]dt
-F(f(t))=\int_{-\infty}^{\infty}f(t)\cos(\omega t)dt-int_{-\infty}^{\infty}f(t)i\sin(\omega t)dt
+<img src="http://latex.codecogs.com/gif.latex?F(f(t))=\int_{-\infty}^{\infty}f(t)[\cos(\omega t)-i\sin(\omega t)]dt">
+<img src="http://latex.codecogs.com/gif.latex?F(f(t))=\int_{-\infty}^{\infty}f(t)\cos(\omega t)dt-int_{-\infty}^{\infty}f(t)i\sin(\omega t)dt">
 和傅里叶级数相比，无非就是多了个复数，积分区间从负无穷到正无穷
