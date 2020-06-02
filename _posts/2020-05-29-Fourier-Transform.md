@@ -34,3 +34,18 @@ b_n=\frac{2}{T}\int_0^Tf(t)\sin(n\omega t)dt
 <img src="http://latex.codecogs.com/gif.latex?F(f(t))=\int_{-\infty}^{\infty}f(t)[\cos(\omega t)-i\sin(\omega t)]dt">
 <img src="http://latex.codecogs.com/gif.latex?F(f(t))=\int_{-\infty}^{\infty}f(t)\cos(\omega t)dt-\int_{-\infty}^{\infty}f(t)i\sin(\omega t)dt">
 和傅里叶级数相比，无非就是多了个复数，积分区间从负无穷到正无穷
+
+#### "傅里叶变换要求时域信号绝对可积，对于不满足绝对可积条件的连续信号采用拉普拉斯变换" ####
+<img src="http://latex.codecogs.com/gif.latex?F(s)=\int_{-\infty}{\infty}f(t)e^{-st}dt=\int_{-\infty}^{\infty}e^{(-\sigma+i\omega t)}dt">
+所以拉普拉斯与连续时间的傅里叶变换的关系是:
+##### 拉普拉斯变换将频率从实数推广为复数，傅里叶变换是拉普拉斯变换的一个特例（当s为纯虚数时，f(t)的拉普拉斯变换等同于傅里叶变换）#####
+
+#### 离散信号傅里叶变换和Z变换 ####
+\sum_{-\infty}^{\infty}x[n]e^{-j\omega n}
+<center>DTFT</center>
+
+\sum_{-\infty}^{\infty}x[n]z^{-n}
+z=(a*e^{jw})^{-n}
+<center></center>
+对应连续时间的傅里叶变换和拉普拉斯变换
+从图像的角度来说，Z变换得到的频谱，是一个复平面上的函数，而DTFT得到的频谱，则是沿着单位圆切一刀，得到的函数的剖面，从负实轴切断展开的图像。
