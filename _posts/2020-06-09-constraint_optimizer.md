@@ -30,7 +30,13 @@ KKT条件是带约束优化存在最优解的必要条件，然而如果简单�
 目标函数可写为：  
 <img src="http://latex.codecogs.com/gif.latex? f(x)=tc^T x-\sum_{i=1}^m log(-A_{ij} x_j+b_i)">
 线性函数是凸函数，I(u)也是凸函数，所以f(x)是凸函数，所以很容易用凸优化经典方法得到该函数的极小值
-                                               
+
+##### 求解最小值 #####
+对于凸函数，函数的极小值为梯度为0时对应的接x*
+函数的梯度为：  
+<img src="http://latex.codecogs.com/gif.latex? \frac{\partial f}{\partial x_k}=tc_k+\sum{i=1}{m}\frac{-A_{ik}}{A_{ij}x_j-b_i}
+Hessian矩阵为
+<img src="http://latex.codecogs.com/gif.latex? \frac{\partial^2 f}{\partial x_k \partial x_l}=\sum{i=1}{m}\frac{A_{ik} A_{il}}({A_{ij}x_j-b_i})^2
 
 
 
