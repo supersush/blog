@@ -18,13 +18,14 @@ KKT条件是带约束优化存在最优解的必要条件，然而如果简单�
 #### 内点法 ####
 [主要内容参考这篇文章](https://zhuanlan.zhihu.com/p/32685234)  
 线性划归问题一般形式为：  
-<img src="/blog/img/in-post/linear-programming.png">  
+<img src="/blog/img/in-post/linear-programming.png">
 带约束的优化问题我们求解比较麻烦（按无约束求解，检验是否符合约束条件，不符合约束条件解在临界点上），并且难以把求解的过程用代码表示。  
 所以将带约束的问题转化为无约束的问题，并且能够用已有的优化算法来求解变成了我们研究的方向（思路类似以前数学老师的口头禅：这个问题你没见过，相似的问题有没有见过，能不能把这个问题转化为以前见过的相似的问题）
 ##### 线性规划问题的等价（近似）表达 #####
 <img src="http://latex.codecogs.com/gif.latex? f(x)=c^{T}x+\sum_{i=1}^{m} I(A_{ij}x_j-b_j)">
 其中indicator函数I定义为：
-<img src="http://latex.codecogs.com/gif.latex? \begin{I(u)=}\left\{\begin{array}{lr}0\\infty\right">
+<img src="http://latex.codecogs.com/gif.latex? I(u)=\begin{cases} 0 & \text{if } u \le 0 \\ \infty & \text{if } u > 0 \end{cases}">
+                                               
 
 
 
