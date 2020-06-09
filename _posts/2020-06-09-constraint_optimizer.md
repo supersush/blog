@@ -24,7 +24,12 @@ KKT条件是带约束优化存在最优解的必要条件，然而如果简单�
 ##### 线性规划问题的等价（近似）表达 #####
 <img src="http://latex.codecogs.com/gif.latex? f(x)=c^{T}x+\sum_{i=1}^{m} I(A_{ij}x_j-b_j)">
 其中indicator函数I定义为：
-<img src="http://latex.codecogs.com/gif.latex? I(u)=\begin{cases} 0 & \text{if } u \le 0 \\ \infty & \text{if } u > 0 \end{cases}">
+<img src="http://latex.codecogs.com/gif.latex? I(u)=\begin{cases} 0 & \text{if } u \le 0 \\ \infty & \text{if } u > 0 \end{cases}">  
+用一个光滑函数代替这个indicator函数：
+<img src="http://latex.codecogs.com/gif.latex? I(u)=-/frac^1_t log(-u)">
+目标函数可写为：  
+<img src="http://latex.codecogs.com/gif.latex? f(x)=tc^T x-\sum_{i=1}^m log(-A_ij x_j+b_i)">
+线性函数是凸函数，I(u)也是凸函数，所以f(x)是凸函数，所以很容易用凸优化经典方法得到该函数的极小值
                                                
 
 
