@@ -34,9 +34,9 @@ KKT条件是带约束优化存在最优解的必要条件，然而如果简单�
 ##### 求解最小值 #####
 对于凸函数，函数的极小值为梯度为0时对应的接x*
 函数的梯度为：  
-<img src="http://latex.codecogs.com/gif.latex? \frac{\partial f}{\partial x_k}=tc_k+\sum{i=1}{m}\frac{-A_{ik}}{A_{ij}x_j-b_i">
+<img src="http://latex.codecogs.com/gif.latex? \frac{\partial f}{\partial x_k}=tc_k+\sum_{i=1}^{m}\frac{-A_{ik}}{A_{ij}x_j-b_i">
 Hessian矩阵为
-<img src="http://latex.codecogs.com/gif.latex? \frac{\partial^2 f}{\partial x_k \partial x_l}=\sum{i=1}{m}\frac{A_{ik} A_{il}}({A_{ij}x_j-b_i})^2">
+<img src="http://latex.codecogs.com/gif.latex? \frac{\partial^2 f}{\partial x_k \partial x_l}=\sum_{i=1}^{m}\frac{A_{ik} {A_{il}({A_{ij}x_j-b_i})^2}">
 
 
 
