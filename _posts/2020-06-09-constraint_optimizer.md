@@ -38,7 +38,7 @@ KKT条件是带约束优化存在最优解的必要条件，然而如果简单�
 Hessian矩阵为
 <img src="http://latex.codecogs.com/gif.latex? \frac{\partial^2 f}{\partial x_k \partial x_l}=\sum_{i=1}^{m}\frac{A_{ik} A_{il}}{({A_{ij}x_j-b_i})^2}">
 定义对角矩阵为  
-<img src="http://latex.codecogs.com/gif.latex? D_{ij}=\delta\frac{1}{(A_ik x_k-b_i)^2}">
+<img src="http://latex.codecogs.com/gif.latex? D_{ij}=\delta_{ij}\frac{1}{(A_ik x_k-b_i)^2}">
 于是Hessian矩阵写作：
 <img src="http://latex.codecogs.com/gif.latex? H_f=A^T D A">
 D是正定矩阵，所以Hessian矩阵至少半正定，所以f(x)是凸函数。  
