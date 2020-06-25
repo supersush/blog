@@ -54,8 +54,8 @@ DQN的训练流程：
 
 #### Policy Gradient
 在强化学习中，有两大类方法，一种基于值（Value-based），一种基于策略（Policy-based）
-\ Value-based的算法的典型代表为Q-learning和SARSA，将Q函数优化到最优，再根据Q函数取最优策略。
-\ Policy-based的算法的典型代表为Policy Gradient，直接优化策略函数。
+&nbsp;Value-based的算法的典型代表为Q-learning和SARSA，将Q函数优化到最优，再根据Q函数取最优策略。
+&nbsp;Policy-based的算法的典型代表为Policy Gradient，直接优化策略函数。
 策略梯度的求解方式如下：
 <img src="/blog/img/in-post/DQN.png">
 如果某个策略的reward越大，其梯度乘上的reward越大。类似于监督学习里的正样本权重的概念：正样本（action）权重越大（reward越大），则其预测出现的概率越高（action被选择的概率越高）
