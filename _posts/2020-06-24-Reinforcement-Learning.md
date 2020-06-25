@@ -64,7 +64,7 @@ DQN的训练流程：
 
 #### DDPG
 之前讲到了对于状态空间连续（不可数），我们采用DQN来扩展Q-learning算法。如果动作空间也连续呢？<br>
-DDPG的提出动机其实是为了让DQN可以扩展到连续的动作空间。<br>
+&nbsp;DDPG的提出动机其实是为了让DQN可以扩展到连续的动作空间。<br>
 &nbsp;DDPG借鉴了DQN的两个技巧：经验回放 和 固定Q网络。<br>
 &nbsp;DDPG使用策略网络直接输出确定性动作。<br>
 &nbsp;DDPG使用了Actor-Critic的架构
