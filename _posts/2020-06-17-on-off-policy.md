@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "On Policy vs Off Policy"
+title: "强化学习中的重要概念"
 author: "sush"
 header-img: "img/post-bg-web.jpg"
 header-mask: 0.4
