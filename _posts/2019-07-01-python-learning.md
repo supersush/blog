@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "python积累"
+title: "python知识点积累"
 author: "sush"
 header-img: "img/post-bg-web.jpg"
 header-mask: 0.4
